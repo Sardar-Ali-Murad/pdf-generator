@@ -8,7 +8,7 @@ const ViewInternalAuditReport = () => {
 
   return (
     <div>
-      <div className="row my-3" style={{marginBottom:"20px"}}>
+      <div className="row my-3" style={{ marginBottom: "20px" }}>
         <div
           className="btn btn-labeled btn-primary px-3 shadow fitContent globalFont"
           onClick={() => setViewPdf((pre) => !pre)}

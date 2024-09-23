@@ -36,13 +36,7 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
     fontFamily: "Poppins",
   },
-  page2: {
-    flexDirection: "column",
-    backgroundColor: "#FFFFFF",
-    fontFamily: "Poppins",
-    paddingTop: 25,
-    paddingHorizontal: 35,
-  },
+
   header: {
     flexDirection: "column",
     alignItems: "center",
@@ -69,96 +63,17 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: "center",
   },
-  reportName: {
-    textAlign: "center",
-  },
-
-  h4: {
-    fontSize: 12,
-  },
-  contents: {
-    marginBottom: 15,
-    color: "#0a7386",
-    fontSize: 14,
-  },
-  overviewWrap: {
-    display: "flex",
-    flexDirection: "column",
-    gap: 10,
-  },
-
-  horizontalLine: {
-    height: 2,
-    width: "100%",
-    backgroundColor: "#0a7386",
-  },
-  findHeader: {
-    fontSize: 20,
-    marginTop: 10,
-    marginBottom: 10,
-  },
-  summaryInfoWrapSummary: {
-    marginTop: 0,
-    display: "flex",
-    flexDirection: "column",
-    gap: 20,
-  },
-  indexNumber: {
-    fontSize: 14,
-    color: "#0a7386",
-    textDecoration: "underline",
-  },
-  findingsHeaderInfo: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginBottom: 10,
-  },
-  singleFindingsHeaderInfo: {
-    flexDirection: "row",
-    gap: 2,
-    alignItems: "center",
-  },
   pdfHeaderWrap: {
     color: "#0a7386",
     fontSize: 15,
     marginBottom: 10,
   },
-  singleFindingsHeaderInfoHeader: {
-    fontSize: 12,
-    color: "#0a7386",
-  },
-  singleFindingsHeaderInfoPara: {
-    fontSize: 10,
-  },
-
   firstPage: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     fontFamily: "Poppins",
     justifyContent: "center",
-  },
-  overviewFields: {
-    display: "flex",
-    flexDirection: "column",
-    marginLeft: "50px",
-  },
-  pageStarter: {
-    display: "flex",
-    justifyContent: "space-between",
-    flexDirection: "row",
-    alignItems: "center",
-    paddingTop: 50,
-    paddingBottom: 20,
-    paddingLeft: 35,
-    paddingRight: 35,
-  },
-  h7: {
-    fontSize: 8,
-    fontFamily: "Poppins",
-  },
-  pageStarterLogo: {
-    width: 40,
   },
   pageNumber: {
     position: "absolute",
