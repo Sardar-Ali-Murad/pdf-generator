@@ -34,6 +34,11 @@ const styles = StyleSheet.create({
     fontFamily: "Poppins",
     color: "green",
   },
+  subHeadDescription: {
+    fontFamily: "Poppins",
+    color: "green",
+    fontSize:8
+  },
   globalFont: {
     fontFamily: "Poppins",
   },
@@ -206,7 +211,7 @@ const PDFGenerator = ({ data }) => {
               </View>
               <View style={styles.datadescription}>
                 <Text style={styles.head}>description : </Text>
-                <Html style={styles.subHead}>{item?.description}</Html>
+                <Html style={styles.subHeadDescription}>{item?.description}</Html>
               </View>
               {item?.address && item?.address !== "" && (
                 <View style={styles.flexData}>
